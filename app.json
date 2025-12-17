@@ -1,0 +1,54 @@
+{
+  "expo": {
+    "name": "react-native-todo",
+    "slug": "react-native-todo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "permissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "cameraPermission": "Allow $(PRODUCT_NAME) to access your camera to take receipts.",
+          "photosPermission": "Allow $(PRODUCT_NAME) to access your photos to select receipts."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "2a67a1f8-9373-4fda-b5b3-07001a9aa826"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/2a67a1f8-9373-4fda-b5b3-07001a9aa826"
+    },
+    "owner": "wudev"
+  }
+}
